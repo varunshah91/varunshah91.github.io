@@ -1,11 +1,8 @@
 body {
     width: 411px;
     height: 731px;
-    border: 1px;
     margin: 0;
-    border-color: #ffffff;  
-    border-style: dashed;
-    background-color: grey;
+    background: linear-gradient(180deg, #07204F 0%, rgba(255, 255, 255, 0.7) 100%), #07204F;
 
 }
 .notification_bar{
