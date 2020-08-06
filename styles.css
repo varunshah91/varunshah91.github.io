@@ -32,15 +32,13 @@ body {
 }
 .nav_cointainer{
     width: 411px;
-    overflow: auto;
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; 
     box-sizing: border-box;
 }
 
 .nav_bar{
-    overflow: auto;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -73,7 +71,6 @@ body {
     height: 41px;
     width: auto;
     position: fixed;
-    overflow: auto;
     bottom: 10px;
     left: 20px;
 }
@@ -81,7 +78,6 @@ body {
     height: 41px;
     width: auto;
     position: fixed;
-    overflow: auto;
     bottom: 10px;
     left: 110px;
 }
@@ -90,7 +86,6 @@ body {
     height: 41px;
     width: auto;
     position: fixed;
-    overflow: auto;
     bottom: 10px;
     left: 255px;
 }
@@ -99,7 +94,6 @@ body {
     height: 41px;
     width: auto;
     position: fixed;
-    overflow: auto;
     bottom: 10px;
     left: 335px;
 }
