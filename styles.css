@@ -1,0 +1,105 @@
+body {
+    width: 411px;
+    height: 731px;
+    border: 1px;
+    margin: 0;
+    border-color: #ffffff;  
+    border-style: dashed;
+    background-color: grey;
+
+}
+.notification_bar{
+    position: sticky;
+    top: 0;
+}
+.menu_bar{
+    position: sticky;
+    top: 24px;
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.m_bt{
+    left: 20px;
+    margin: 20px;
+}
+.u_name{
+    margin: 20px;
+
+} 
+.pro_pic{
+    left: 320px;
+}
+.nav_cointainer{
+    width: 411px;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+
+}
+.home_btn{
+    position: fixed;
+    overflow: auto;
+
+}
+#circle{
+    position: fixed;
+    bottom: 38.5px;
+    left: 171px;
+    z-index: -1;
+}
+#home{
+    position: fixed;
+    bottom: 49.5px;
+    left: 178px;
+}
+.icons {
+    display: flex;
+    list-style: none;
+}
+
+#trn{
+    height: 41px;
+    width: auto;
+    position: fixed;
+    overflow: auto;
+    bottom: 10px;
+    left: 20px;
+}
+#cb{
+    height: 41px;
+    width: auto;
+    position: fixed;
+    overflow: auto;
+    bottom: 10px;
+    left: 110px;
+}
+
+#sto{
+    height: 41px;
+    width: auto;
+    position: fixed;
+    overflow: auto;
+    bottom: 10px;
+    left: 255px;
+}
+
+#bk{
+    height: 41px;
+    width: auto;
+    position: fixed;
+    overflow: auto;
+    bottom: 10px;
+    left: 335px;
+}
