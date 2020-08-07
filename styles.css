@@ -46,6 +46,9 @@ body {
     margin-left: 37px;
     margin-right: 37px;
 }
+.mid_container a{
+    text-decoration: none;
+}
 .tab1{
     max-width: 337px;
     height: 101px;
@@ -90,7 +93,7 @@ body {
     max-width: 14px;
     left: 87.83%;
     right: 8.01%;
-    bottom: 14px;
+    bottom: 12px;
     margin: 0;
     font-family: Comfortaa;
     font-style: normal;
@@ -151,7 +154,7 @@ body {
     max-width: 14px;
     left: 87.83%;
     right: 8.01%;
-    bottom: 14px;
+    bottom: 12px;
     margin: 0;
     font-family: Comfortaa;
     font-style: normal;
