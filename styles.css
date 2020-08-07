@@ -21,27 +21,167 @@ body {
     margin: 20px;
 }
 .u_name{
-    margin: 20px;
-
+    position: absolute;
+    left: 43.55%;
+    right: 17.52%;
+    top: 35.38%;
+    bottom: 21.54%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
 } 
 .pro_pic{
-    left: 320px;
+    position: absolute;
+    left: 89.29%;
+    right: 4.38%;
+    top: 27.69%;
+    bottom: 32.31%;
+    
+}
+.mid_container{
+    align-content: center;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+.tab1{
+    max-width: 337px;
+    height: 101px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.tab1 h1{
+    position: relative;
+    max-width: 147px;
+    margin: 0 ;
+    left: 5.04%;
+    right: 51.34%;
+    top: 35.48%;
+    bottom: 20.79%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+}
+.tab1 h2{
+    position: relative;
+    max-width: 144px;
+    margin: 0 ;
+    left: 5.04%;
+    right: 52.23%;
+    top: 22.77%;
+    bottom: 55.45%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    color: #07204F;
+}
+.tab1 h3{
+    position: relative;
+    max-width: 14px;
+    left: 87.83%;
+    right: 8.01%;
+    bottom: 14px;
+    margin: 0;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+}
+.tab1 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 254px;
+    bottom: 39px;
+}
+
+.tab2{
+    max-width: 337px;
+    height: 101px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.tab2 h1{
+    position: relative;
+    max-width: 147px;
+    margin: 0 ;
+    left: 5.04%;
+    right: 51.34%;
+    top: 35.48%;
+    bottom: 20.79%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+}
+.tab2 h2{
+    position: relative;
+    max-width: 170px;
+    margin: 0 ;
+    left: 5.04%;
+    right: 52.23%;
+    top: 22.77%;
+    bottom: 55.45%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    color: #07204F;
+}
+.tab2 h3{
+    position: relative;
+    max-width: 14px;
+    left: 87.83%;
+    right: 8.01%;
+    bottom: 14px;
+    margin: 0;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+}
+.tab2 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 254px;
+    bottom: 39px;
 }
 .nav_cointainer{
     width: 411px;
+    height: 71.5px;
     position: fixed;
     bottom: 0;
     left: 0; 
     box-sizing: border-box;
 }
-
 .nav_bar{
     position: fixed;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     width: 100%;
     z-index: -2;
-
+    
 }
 .home_btn{
     position: fixed;
@@ -50,14 +190,14 @@ body {
 }
 #circle{
     position: fixed;
-    bottom: 38.5px;
+    bottom: 33.5px;
     left: 171px;
     z-index: -1;
 }
 #home{
     position: fixed;
-    bottom: 49.5px;
-    left: 178px;
+    bottom: 47.5px;
+    left: 179px;
 }
 .icons {
     display: flex;
@@ -65,32 +205,24 @@ body {
 }
 
 #trn{
-    height: 41px;
-    width: auto;
     position: fixed;
-    bottom: 10px;
-    left: 20px;
+    bottom: 5px;
+    left: 25px;
 }
 #cb{
-    height: 41px;
-    width: auto;
     position: fixed;
-    bottom: 10px;
-    left: 110px;
+    bottom: 5px;
+    left: 105px;
 }
 
 #sto{
-    height: 41px;
-    width: auto;
     position: fixed;
-    bottom: 10px;
+    bottom: 5px;
     left: 255px;
 }
 
 #bk{
-    height: 41px;
-    width: auto;
     position: fixed;
-    bottom: 10px;
+    bottom: 5px;
     left: 335px;
 }
