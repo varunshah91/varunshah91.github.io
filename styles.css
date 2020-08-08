@@ -1,8 +1,21 @@
+@font-face{
+    font-family: "Comfortaa"; 
+    src: url("/font/comfortaa/Comfortaa-Medium.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Comfortaa"; 
+    src: url("/font/comfortaa/Comfortaa-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
 body {
     width: 411px;
     height: 731px;
     margin: 0;
     background: linear-gradient(180deg, #07204F 0%, rgba(255, 255, 255, 0.7) 100%), #07204F;
+    font-family: 'Comfortaa', serif;
 
 }
 .notification_bar{
@@ -26,9 +39,7 @@ body {
     right: 17.52%;
     top: 35.38%;
     bottom: 21.54%;
-    font-family: Comfortaa;
-    font-style: normal;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 20px;
     line-height: 22px;
     color: #FFFFFF;
@@ -66,9 +77,8 @@ body {
     right: 51.34%;
     top: 35.48%;
     bottom: 20.79%;
-    font-family: Comfortaa;
     font-style: normal;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 24px;
     line-height: 27px;
     color: #000000;
@@ -81,9 +91,7 @@ body {
     right: 52.23%;
     top: 22.77%;
     bottom: 55.45%;
-    font-family: Comfortaa;
-    font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 20px;
     line-height: 22px;
     color: #07204F;
@@ -95,8 +103,6 @@ body {
     right: 8.01%;
     bottom: 12px;
     margin: 0;
-    font-family: Comfortaa;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
@@ -127,9 +133,7 @@ body {
     right: 51.34%;
     top: 35.48%;
     bottom: 20.79%;
-    font-family: Comfortaa;
-    font-style: normal;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 24px;
     line-height: 27px;
     color: #000000;
@@ -142,9 +146,7 @@ body {
     right: 52.23%;
     top: 22.77%;
     bottom: 55.45%;
-    font-family: Comfortaa;
-    font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 20px;
     line-height: 22px;
     color: #07204F;
@@ -156,8 +158,6 @@ body {
     right: 8.01%;
     bottom: 12px;
     margin: 0;
-    font-family: Comfortaa;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
